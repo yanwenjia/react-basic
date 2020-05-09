@@ -1,0 +1,26 @@
+.home-container{
+    display: flex;
+    height: 500px;
+    .left{
+        width: 200px;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid red;
+    }
+    .right{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        .top{
+            height: 50px;
+            border: 1px solid yellow;
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+        .main{
+            border: 1px solid goldenrod;
+            flex-grow: 1;
+        }
+    }
+    
+}
